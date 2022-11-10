@@ -1,0 +1,201 @@
+body{
+	margin-left:80px;
+	margin-right:80px;
+	margin-top:70px;
+	font-family:'inter';
+}
+.header{
+	display:flex;
+	flex-direction:ROW;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	align-items:space-between;
+}
+
+
+.navbar ul li{
+	display:inline;	
+}
+
+
+.navbar li a:hover{
+  color:hsl(5, 85%, 63%);
+}
+
+
+.navbar li{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+    align-content: space-evenly;
+	padding:5px;	
+}
+
+
+.navbar li a{
+  color:hsl(236, 13%, 42%);
+  text-decoration:none;
+  font-size:20px;
+  padding:10px;
+  margin-right:10px;
+}
+
+
+div .img{
+	height:300px;
+	width:1000px;
+	margin-top:20px;
+}
+
+
+.top{
+	display:flex;
+	flex-direction:row;
+    flex-wrap:nowrap;
+    list-style:none;
+	text-decoration:none;
+	justify-content:space-between;
+	align-items:space-between;
+}
+
+
+.right .sidebar{
+	border:2px solid black;
+	color:white;
+	background-color:black;
+	padding-top:0px;
+	padding-left:30px;
+	padding-right:40px;
+	padding-bottom:30px;
+	margin-top:10px;
+	width:350px;
+}
+
+
+.sidebar .heading{
+	font-size:40px;
+	padding:0;
+	color: hsl(35, 77%, 62%);
+}
+
+
+div .underline{
+	border-top:1px solid hsl(36, 100%, 99%);
+	padding-bottom:5px;
+}
+
+
+.underline h3 a{
+	text-decoration:none;
+	color:white;
+}
+
+
+.underline h3 a:hover{
+  color: hsl(35, 77%, 62%);
+}
+
+
+.line h3 a{
+	text-decoration:none;
+	color:white;
+}
+
+
+
+.line h3 a:hover{
+  color: hsl(35, 77%, 62%);
+}
+
+
+.leftdown{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	align-items:space-evenly;
+		
+}
+
+
+.leftdown-title{
+	font-size:45px;
+	margin-top:30px;
+	padding:5px;
+	
+}
+
+
+.btn-primary{
+	background-color:tomato;
+	border:1px solid white;
+	padding:15px;	
+}
+
+
+.btn-primary a{
+	text-decoration:none;
+	color:white;
+}
+
+
+.leftdown-content{
+	font-size:20px;
+	padding-left:30px;
+	padding-right:70px;
+	margin-top:30px;
+}
+
+
+.downbar{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:space-between;
+}
+
+
+.downbar-down{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items:space-between;
+    margin:5px;	
+}
+
+
+.down-img{
+	padding-top:40px;
+	height:130px;
+	width:100px;
+}
+
+
+.downbar-content{
+	font-size:20px;
+	padding-left:20px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+
+.downbar-head a{
+	color: hsl(240, 100%, 5%);
+	text-decoration:none;	
+}
+
+
+.downbar-head a:hover{
+  color:hsl(5, 85%, 63%) ;
+}
+
+
+
+.downbar-number{
+	color:hsl(233, 8%, 79%);
+}
+
+
+.sidebar-article{
+	color:hsl(236, 13%, 42%);
+}
+
